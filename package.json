@@ -1,0 +1,20 @@
+{
+  "name": "dooboolab-welcome",
+  "version": "1.0.5",
+  "description": "dooboolab welcome console message.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node bin/hello.js"
+  },
+  "bin": {
+    "dooboolab-welcome": "./bin/hello.js"
+  },
+  "keywords": [
+    "dooboolab"
+  ],
+  "author": "dooboolab@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
+}
