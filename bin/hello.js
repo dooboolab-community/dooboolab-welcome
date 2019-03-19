@@ -8,4 +8,3 @@ const welcome = `
 (_|(_)(_)|_)(_)(_)|(_||_)
 `;
 console.log(chalk.greenBright(welcome));
-
