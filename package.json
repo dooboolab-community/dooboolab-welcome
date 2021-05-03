@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "node bin/hello.js",
-    "lint": "eslint -c .eslintrc.js ."
+    "lint": "eslint -c .eslintrc.js bin"
   },
   "bin": {
     "dooboolab-welcome": "./bin/hello.js"
