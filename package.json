@@ -7,6 +7,10 @@
     "postinstall": "node bin/hello.js",
     "lint": "eslint -c .eslintrc.js bin"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dooboolab/dooboolab-welcome.git"
+  },
   "bin": {
     "dooboolab-welcome": "./bin/hello.js"
   },
